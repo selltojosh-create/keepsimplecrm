@@ -52,7 +52,7 @@ export function OrgSwitcher({ organizations, currentOrg }: OrgSwitcherProps) {
           <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-[200px] z-50" align="start">
+      <DropdownMenuContent className="w-[200px]" align="start">
         <DropdownMenuLabel>Organizations</DropdownMenuLabel>
         <DropdownMenuSeparator />
         {organizations.length === 0 ? (

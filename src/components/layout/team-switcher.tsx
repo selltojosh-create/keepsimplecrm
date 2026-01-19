@@ -52,7 +52,7 @@ export function TeamSwitcher({ teams, currentTeam }: TeamSwitcherProps) {
           <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-[180px] z-50" align="start">
+      <DropdownMenuContent className="w-[180px]" align="start">
         <DropdownMenuLabel>Teams</DropdownMenuLabel>
         <DropdownMenuSeparator />
         {teams.length === 0 ? (
