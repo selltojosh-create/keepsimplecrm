@@ -119,7 +119,7 @@ export default async function PlatformLayout({
             organizations={userOrganizations}
             teams={userTeams}
           />
-          <main className="relative z-10 flex-1 overflow-y-auto bg-muted/30 p-4 md:p-6">
+          <main className="flex-1 overflow-y-auto bg-muted/30 p-4 md:p-6">
             {children}
           </main>
         </div>

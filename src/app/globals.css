@@ -177,3 +177,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Ensure Radix UI portals (dropdowns, dialogs, etc.) appear above all content */
+[data-radix-popper-content-wrapper] {
+  z-index: 9999 !important;
+}
